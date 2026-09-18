@@ -116,6 +116,23 @@ Current practice uses Postman Echo as a learning endpoint.
 
 A key lesson from this work has been that a QA engineer should not invent an expected result simply because an input looks unusual. The expected behaviour must come from the requirements or the API's documented contract.
 
+### Completed Practice
+
+* Created a `QA API Testing` Postman collection.
+* Tested GET requests using Postman Echo.
+* Validated query parameters, including the `name` parameter.
+* Added and validated custom request headers.
+* Created Postman assertions for HTTP status codes, response-body values, and response-header values.
+* Practiced testing a missing query parameter and observed the API's actual behavior rather than assuming an error response.
+* Explored longer input values as part of basic boundary and robustness testing.
+* Exported the Postman collection as JSON and added it to the project at `api/postman-collection.json`.
+* Committed and pushed the collection to GitHub as part of the project's version-controlled API testing assets.
+
+### Next API Testing Focus
+
+The next stage will cover authentication and authorization testing, including understanding and validating common responses such as `401 Unauthorized` and `403 Forbidden`, using appropriate practice APIs.
+
+
 ### Git & GitHub
 
 **Status: Active**
